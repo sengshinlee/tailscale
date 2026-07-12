@@ -1,0 +1,27 @@
+// ... other parts of tailnet policy file
+"derpMap": {
+    "OmitDefaultRegions": true,
+    "Regions": {
+    	"900": {
+            "RegionID": 900,
+            "RegionCode": "sfo.derper",
+            "RegionName": "San Francisco",
+            "Latitude": 37.3541,
+            "Longitude": -121.9554,
+            "Nodes": [
+                {
+                    "Name": "900a",
+                    "RegionID": 900,
+                    "HostName": "YOUR_DERP_SERVER_DOMAIN",
+                    // IPv4 and IPv6 are optional, but recommended, to reduce
+                    // potential DERP connectivity issues if DNS is unavailable
+                    // or having issues. Addresses must be publicly routable
+                    // and not in private IP ranges.
+                    "IPv4": "YOUR_DERP_SERVER_IPV4",
+                    "IPv6": "YOUR_DERP_SERVER_IPV6",
+                    "CanPort80": true
+                }
+            ]
+        }
+    }
+}
