@@ -1,0 +1,11 @@
+Description
+  A bash script for Ubuntu to install Tailscale and configure (Dual-stack supported).
+
+Usage
+  Firewall ports
+    - 443/tcp: used for HTTPS and DERP.
+    - 3478/udp: used for STUN.
+    - 40000/udp: used for Tailscale Peer Relays.
+    - 41641/udp: used for the default WireGuard direct connection.
+
+Tailscale is a registered trademark of Tailscale Inc.
