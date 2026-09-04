@@ -1,0 +1,17 @@
+# Tailscale state_directory
+# ubuntu
+/var/lib/tailscale
+tailscaled.state
+tailscaled.log.conf
+tailscaled.log1.txt
+tailscaled.log2.txt
+
+# macos
+unknown
+
+# windows
+C:\\ProgramData\\Tailscale
+server-state.conf
+tailscaled.log.conf
+tailscaled.log1.txt
+tailscaled.log2.txt
