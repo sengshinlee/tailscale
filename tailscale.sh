@@ -141,7 +141,9 @@ if ! tailscale status >/dev/null 2>&1; then
          [ "${HOSTNAME}" == "us-west-2a" ] || \
          [ "${HOSTNAME}" == "us-west-2-wl1-sfo-wlz-1" ] || \
          [ "${HOSTNAME}" == "ap-east-1a" ] || \
-         [ "${HOSTNAME}" == "gomami" ]; then
+         [ "${HOSTNAME}" == "azure" ] || \
+         [ "${HOSTNAME}" == "gcp" ] || \
+         [ "${HOSTNAME}" == "tencentcloud" ]; then
         sudo tailscale up --reset --advertise-exit-node
     else
         sudo tailscale up --reset
