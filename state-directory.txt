@@ -1,10 +1,10 @@
 # Tailscale state_directory
 # ubuntu
 /var/lib/tailscale
-tailscaled.state
 tailscaled.log.conf
 tailscaled.log1.txt
 tailscaled.log2.txt
+tailscaled.state
 
 # macos
 unknown
